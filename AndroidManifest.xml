@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bpits.o2qr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/log"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.bpits.o2qr.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bpits.o2qr.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bpits.o2qr.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bpits.o2qr.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bpits.o2qr.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bpits.o2qr.Options"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bpits.o2qr.OPTIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.bpits.o2qr.Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bpits.o2qr.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bpits.o2qr.About"
+			android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bpits.o2qr.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+    </application>
+
+</manifest>

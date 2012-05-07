@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To change or delete language" />
+
+    <Spinner
+        android:id="@+id/optionz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/changeCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change" />
+
+    <CheckBox
+        android:id="@+id/deleteCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/bconfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+    <TextView 
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To download new languages"
+        />
+    <Spinner
+        android:id="@+id/spinnerdo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download" />
+
+</LinearLayout>
